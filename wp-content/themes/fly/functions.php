@@ -14,35 +14,10 @@ function fly_include_style()
     wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/main.js', '', '1', true);
 }
 
-
-
-pll_register_string('YOU CAN REQUEST', 'YOU CAN REQUEST');
-pll_register_string('A Free Consultation', 'A Free Consultation');
-pll_register_string('Name', 'Name');
-pll_register_string('Email', 'Email');
-
-pll_register_string('Transport Type', 'Transport Type');
-pll_register_string('Rail transport', 'Rail transport');
-pll_register_string('Water transport', 'Water transport');
-
-pll_register_string('Type of freight', 'Type of freight');
-pll_register_string('Consignee Collects', 'Consignee Collects');
-pll_register_string('Prepay and Add', 'Prepay and Addl');
-
-pll_register_string('Submit', 'Submit');
-pll_register_string('Message', 'Message');
-pll_register_string('politic text', 'politic text');
-pll_register_string('politic link', 'politic link');
-pll_register_string('NIP', 'NIP');
-pll_register_string('KRS', 'KRS');
-pll_register_string('Read more', 'Read more');
-pll_register_string('Viber', 'Viber');
-pll_register_string('Address', 'Address');
-pll_register_string('Phone', 'Phone');
-pll_register_string('Company', 'Company');
-pll_register_string('Country', 'Country');
-pll_register_string('Feedback Form:', 'Feedback Form:');
-pll_register_string('Find Us', 'Find Us');
+//supports
+add_theme_support('menus');
+add_theme_support('post-thumbnails');
+add_post_type_support('page', 'excerpt');
 
 
 //custom-logo
