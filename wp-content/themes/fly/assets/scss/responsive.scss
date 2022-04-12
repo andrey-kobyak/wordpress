@@ -1,0 +1,172 @@
+@media (min-width: 375px) and (max-width: 768px) {
+
+  header {
+    .header__top {
+      .panel {
+        justify-content: space-between;
+        padding: 15px 0;
+      }
+      .request {
+        display: none;
+      }
+      ul {
+        margin-top: 25px;
+      }
+    }
+    .header__middle {
+      nav {
+        .logo {
+          a {
+            max-width: 150px;
+          }
+        }
+        .mobile {
+          display: flex !important;
+          width: auto !important;
+          margin-top: auto;
+          margin-bottom: 5px;
+          .bordered {
+            border: none;
+          }
+        }
+
+      }
+      .desc {
+        .bordered {
+          display: none;
+        }
+        .dropdown {
+          display: none !important;
+          button {
+            background: transparent !important;
+            border: none !important;
+          }
+        }
+      }
+    }
+  }
+  #search {
+    input[type="text"] {
+      font-size: 26px;
+    }
+    .btn {
+      margin-left: -65px;
+    }
+  }
+
+  .contact {
+    .map {
+      iframe {
+        min-height: 400px;
+      }
+    }
+    .contact-form {
+      padding: 60px 20px;
+      .contact__title {
+        text-align: center;
+      }
+      .form-group {
+        input, select {
+          margin: 5px 0;
+        }
+        margin: 20px 0;
+      }
+      .btn-readmore {
+        display: block;
+        margin: 0 auto;
+      }
+      .transperent {
+        .card-body {
+          padding: 0;
+        }
+
+      }
+    }
+  }
+
+  .contact-form__full {
+    .contact-form {
+      padding: 60px 20px;
+      .card-body {
+        .form-group {
+          input, select {
+            margin: 5px 0;
+          }
+          margin: 20px 0;
+        }
+      }
+      .btn-readmore {
+        display: block;
+        margin: 0 auto;
+      }
+      .transperent {
+        .card-body {
+          padding: 0;
+        }
+
+      }
+    }
+  }
+  .gray {
+       position: relative;
+       .bg-video-wrap {
+         overflow: hidden;
+         width: 100%;
+         min-height: 400px;
+         position: relative;
+         video {
+           min-width: 100%;
+           height:100%;
+
+         }
+
+       }
+     }
+
+
+  footer {
+    ul {
+      padding: 0 10px;
+    }
+  }
+  .single-page {
+    p {
+      margin: 40px 20px;
+    }
+    .transperent {
+      input, select {
+        margin: 10px 0;
+      }
+
+      .btn-readmore {
+        margin: 0 auto;
+        width: auto;
+        display: block;
+      }
+    }
+    .single__form {
+      &:first-child {
+        padding: 60px 0 60px 20px;
+      }
+
+    }
+  }
+}
+
+.contact-form__full {
+  padding: 50px 0;
+  .transperent {
+    background-color: transparent;
+    .card-body {
+      padding: 0;
+    }
+    input, select {
+      margin: 10px 0;
+    }
+    .btn-readmore {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+}
